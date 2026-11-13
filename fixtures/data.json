@@ -1,0 +1,3048 @@
+{
+  "samples": [
+    {
+      "sample_id": "mix_000",
+      "group": "base",
+      "batch": "batch_0",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_001",
+      "group": "revised",
+      "batch": "batch_1",
+      "dilution": 2,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_002",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_003",
+      "group": "base",
+      "batch": "batch_3",
+      "dilution": 1,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_004",
+      "group": "revised",
+      "batch": "batch_0",
+      "dilution": 2,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_005",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_006",
+      "group": "base",
+      "batch": "batch_2",
+      "dilution": 1,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_007",
+      "group": "revised",
+      "batch": "batch_3",
+      "dilution": 2,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_008",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_009",
+      "group": "base",
+      "batch": "batch_1",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_010",
+      "group": "revised",
+      "batch": "batch_2",
+      "dilution": 2,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_011",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_012",
+      "group": "base",
+      "batch": "batch_0",
+      "dilution": 1,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_013",
+      "group": "revised",
+      "batch": "batch_1",
+      "dilution": 2,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_014",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_015",
+      "group": "base",
+      "batch": "batch_3",
+      "dilution": 1,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_016",
+      "group": "revised",
+      "batch": "batch_0",
+      "dilution": 2,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_017",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_018",
+      "group": "base",
+      "batch": "batch_2",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_019",
+      "group": "revised",
+      "batch": "batch_3",
+      "dilution": 2,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_020",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_021",
+      "group": "base",
+      "batch": "batch_1",
+      "dilution": 1,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_022",
+      "group": "revised",
+      "batch": "batch_2",
+      "dilution": 2,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_023",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_024",
+      "group": "base",
+      "batch": "batch_0",
+      "dilution": 1,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_025",
+      "group": "revised",
+      "batch": "batch_1",
+      "dilution": 2,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_026",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_027",
+      "group": "base",
+      "batch": "batch_3",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_028",
+      "group": "revised",
+      "batch": "batch_0",
+      "dilution": 2,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_029",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_030",
+      "group": "base",
+      "batch": "batch_2",
+      "dilution": 1,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_031",
+      "group": "revised",
+      "batch": "batch_3",
+      "dilution": 2,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_032",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_033",
+      "group": "base",
+      "batch": "batch_1",
+      "dilution": 1,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_034",
+      "group": "revised",
+      "batch": "batch_2",
+      "dilution": 2,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_035",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_036",
+      "group": "base",
+      "batch": "batch_0",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_037",
+      "group": "revised",
+      "batch": "batch_1",
+      "dilution": 2,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_038",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_039",
+      "group": "base",
+      "batch": "batch_3",
+      "dilution": 1,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_040",
+      "group": "revised",
+      "batch": "batch_0",
+      "dilution": 2,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_041",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_042",
+      "group": "base",
+      "batch": "batch_2",
+      "dilution": 1,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_043",
+      "group": "revised",
+      "batch": "batch_3",
+      "dilution": 2,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_044",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_045",
+      "group": "base",
+      "batch": "batch_1",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_046",
+      "group": "revised",
+      "batch": "batch_2",
+      "dilution": 2,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_047",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_048",
+      "group": "base",
+      "batch": "batch_0",
+      "dilution": 1,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_049",
+      "group": "revised",
+      "batch": "batch_1",
+      "dilution": 2,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_050",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_051",
+      "group": "base",
+      "batch": "batch_3",
+      "dilution": 1,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_052",
+      "group": "revised",
+      "batch": "batch_0",
+      "dilution": 2,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_053",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_054",
+      "group": "base",
+      "batch": "batch_2",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_055",
+      "group": "revised",
+      "batch": "batch_3",
+      "dilution": 2,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_056",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_057",
+      "group": "base",
+      "batch": "batch_1",
+      "dilution": 1,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_058",
+      "group": "revised",
+      "batch": "batch_2",
+      "dilution": 2,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_059",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_060",
+      "group": "base",
+      "batch": "batch_0",
+      "dilution": 1,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_061",
+      "group": "revised",
+      "batch": "batch_1",
+      "dilution": 2,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_062",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_063",
+      "group": "base",
+      "batch": "batch_3",
+      "dilution": 1,
+      "total": null
+    },
+    {
+      "sample_id": "mix_064",
+      "group": "revised",
+      "batch": "batch_0",
+      "dilution": 2,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_065",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_066",
+      "group": "base",
+      "batch": "batch_2",
+      "dilution": 1,
+      "total": 101
+    },
+    {
+      "sample_id": "mix_067",
+      "group": "revised",
+      "batch": "batch_3",
+      "dilution": 2,
+      "total": 102
+    },
+    {
+      "sample_id": "mix_068",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 103
+    },
+    {
+      "sample_id": "mix_069",
+      "group": "base",
+      "batch": "batch_1",
+      "dilution": 1,
+      "total": 104
+    },
+    {
+      "sample_id": "mix_070",
+      "group": "revised",
+      "batch": "batch_2",
+      "dilution": 2,
+      "total": 100
+    },
+    {
+      "sample_id": "mix_071",
+      "group": "pilot",
+      "batch": "special",
+      "dilution": 5,
+      "total": 101
+    }
+  ],
+  "readings": [
+    {
+      "sample_id": "mix_000",
+      "component": "A",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_000",
+      "component": "B",
+      "value": 14.78533,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_000",
+      "component": "C",
+      "value": 18.47095,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_000",
+      "component": "D",
+      "value": 21.58424,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_000",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_001",
+      "component": "A",
+      "value": 4.46107,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_001",
+      "component": "B",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_001",
+      "component": "C",
+      "value": 10.21574,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_001",
+      "component": "D",
+      "value": 11.43266,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_001",
+      "component": "E",
+      "value": 14.81941,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_002",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_002",
+      "component": "B",
+      "value": 2.44269,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_002",
+      "component": "C",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_002",
+      "component": "D",
+      "value": 4.72699,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_002",
+      "component": "E",
+      "value": 5.29843,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_003",
+      "component": "A",
+      "value": 7.0266,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_003",
+      "component": "B",
+      "value": 14.22566,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_003",
+      "component": "C",
+      "value": 16.37116,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_003",
+      "component": "D",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_003",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_004",
+      "component": "A",
+      "value": 3.38679,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_004",
+      "component": "B",
+      "value": 13.8814,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_004",
+      "component": "C",
+      "value": 8.97231,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_004",
+      "component": "D",
+      "value": 12.26743,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_004",
+      "component": "E",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_005",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_005",
+      "component": "B",
+      "value": 2.70397,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_005",
+      "component": "C",
+      "value": 4.26488,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_005",
+      "component": "D",
+      "value": 5.23687,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_005",
+      "component": "E",
+      "value": 5.97758,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_006",
+      "component": "A",
+      "value": 7.57454,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_006",
+      "component": "B",
+      "value": 17.5145,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_006",
+      "component": "C",
+      "value": 16.42252,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_006",
+      "component": "D",
+      "value": 25.3491,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_006",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_007",
+      "component": "A",
+      "value": 4.57575,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_007",
+      "component": "B",
+      "value": 6.47295,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_007",
+      "component": "C",
+      "value": 8.94557,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_007",
+      "component": "D",
+      "value": 11.1426,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_007",
+      "component": "E",
+      "value": 11.84729,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_008",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_008",
+      "component": "B",
+      "value": 2.82211,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_008",
+      "component": "C",
+      "value": 3.10983,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_008",
+      "component": "D",
+      "value": 5.24742,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_008",
+      "component": "E",
+      "value": 5.47235,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_009",
+      "component": "A",
+      "value": 9.58384,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_009",
+      "component": "B",
+      "value": 7.98919,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_009",
+      "component": "C",
+      "value": 16.73435,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_009",
+      "component": "D",
+      "value": 22.54217,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_009",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_010",
+      "component": "A",
+      "value": 5.08167,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_010",
+      "component": "B",
+      "value": 11.0341,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_010",
+      "component": "C",
+      "value": 8.34378,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_010",
+      "component": "D",
+      "value": 12.87901,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_010",
+      "component": "E",
+      "value": 14.3329,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_011",
+      "component": "A",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_011",
+      "component": "B",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_011",
+      "component": "C",
+      "value": 3.38752,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_011",
+      "component": "D",
+      "value": 4.93299,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_011",
+      "component": "E",
+      "value": 5.9389,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_012",
+      "component": "A",
+      "value": 7.05474,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_012",
+      "component": "B",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_012",
+      "component": "C",
+      "value": 20.79332,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_012",
+      "component": "D",
+      "value": 24.01657,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_012",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_013",
+      "component": "A",
+      "value": 5.36588,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_013",
+      "component": "B",
+      "value": 11.34776,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_013",
+      "component": "C",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_013",
+      "component": "D",
+      "value": 10.10343,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_013",
+      "component": "E",
+      "value": 14.45851,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_014",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_014",
+      "component": "B",
+      "value": 2.31128,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_014",
+      "component": "C",
+      "value": 3.61479,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_014",
+      "component": "D",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_014",
+      "component": "E",
+      "value": 5.29822,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_015",
+      "component": "A",
+      "value": 7.63085,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_015",
+      "component": "B",
+      "value": 10.82366,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_015",
+      "component": "C",
+      "value": 19.48382,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_015",
+      "component": "D",
+      "value": 22.64851,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_015",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_016",
+      "component": "A",
+      "value": 3.83312,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_016",
+      "component": "B",
+      "value": 9.10467,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_016",
+      "component": "C",
+      "value": 7.65417,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_016",
+      "component": "D",
+      "value": 10.52045,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_016",
+      "component": "E",
+      "value": 13.27124,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_017",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_017",
+      "component": "B",
+      "value": 3.04671,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_017",
+      "component": "C",
+      "value": 3.45269,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_017",
+      "component": "D",
+      "value": 4.5869,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_017",
+      "component": "E",
+      "value": 5.7339,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_018",
+      "component": "A",
+      "value": 11.20169,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_018",
+      "component": "B",
+      "value": 15.3759,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_018",
+      "component": "C",
+      "value": 19.57686,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_018",
+      "component": "D",
+      "value": 19.61384,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_018",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_019",
+      "component": "A",
+      "value": 2.23292,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_019",
+      "component": "B",
+      "value": 8.43555,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_019",
+      "component": "C",
+      "value": 8.72064,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_019",
+      "component": "D",
+      "value": 10.81521,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_019",
+      "component": "E",
+      "value": 14.73843,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_020",
+      "component": "A",
+      "value": 2.6106,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_020",
+      "component": "B",
+      "value": 2.90068,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_020",
+      "component": "C",
+      "value": 3.59706,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_020",
+      "component": "D",
+      "value": 4.23149,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_020",
+      "component": "E",
+      "value": 5.81235,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_021",
+      "component": "A",
+      "value": 9.58555,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_021",
+      "component": "B",
+      "value": 14.69332,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_021",
+      "component": "C",
+      "value": 17.11991,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_021",
+      "component": "D",
+      "value": 25.15276,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_021",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_022",
+      "component": "A",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_022",
+      "component": "B",
+      "value": 11.40083,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_022",
+      "component": "C",
+      "value": 9.62863,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_022",
+      "component": "D",
+      "value": 10.66643,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_022",
+      "component": "E",
+      "value": 13.26572,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_023",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_023",
+      "component": "B",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_023",
+      "component": "C",
+      "value": 3.46612,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_023",
+      "component": "D",
+      "value": 4.09679,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_023",
+      "component": "E",
+      "value": 5.45855,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_024",
+      "component": "A",
+      "value": 6.84794,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_024",
+      "component": "B",
+      "value": 11.23665,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_024",
+      "component": "C",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_024",
+      "component": "D",
+      "value": 24.5794,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_024",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_025",
+      "component": "A",
+      "value": 3.85657,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_025",
+      "component": "B",
+      "value": 13.80758,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_025",
+      "component": "C",
+      "value": 6.8675,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_025",
+      "component": "D",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_025",
+      "component": "E",
+      "value": 14.3457,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_026",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_026",
+      "component": "B",
+      "value": 2.86853,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_026",
+      "component": "C",
+      "value": 4.09216,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_026",
+      "component": "D",
+      "value": 5.16848,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_026",
+      "component": "E",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_027",
+      "component": "A",
+      "value": 6.32244,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_027",
+      "component": "B",
+      "value": 21.08673,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_027",
+      "component": "C",
+      "value": 18.49177,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_027",
+      "component": "D",
+      "value": 24.46643,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_027",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_028",
+      "component": "A",
+      "value": 2.96052,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_028",
+      "component": "B",
+      "value": 11.09549,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_028",
+      "component": "C",
+      "value": 8.93318,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_028",
+      "component": "D",
+      "value": 12.30067,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_028",
+      "component": "E",
+      "value": 14.43029,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_029",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_029",
+      "component": "B",
+      "value": 3.34372,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_029",
+      "component": "C",
+      "value": 3.11452,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_029",
+      "component": "D",
+      "value": 4.5544,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_029",
+      "component": "E",
+      "value": 5.38026,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_030",
+      "component": "A",
+      "value": 7.54496,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_030",
+      "component": "B",
+      "value": 11.46142,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_030",
+      "component": "C",
+      "value": 15.86006,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_030",
+      "component": "D",
+      "value": 25.263,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_030",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_031",
+      "component": "A",
+      "value": 4.17061,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_031",
+      "component": "B",
+      "value": 9.40684,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_031",
+      "component": "C",
+      "value": 8.88979,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_031",
+      "component": "D",
+      "value": 11.81589,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_031",
+      "component": "E",
+      "value": 13.5839,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_032",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_032",
+      "component": "B",
+      "value": 2.8501,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_032",
+      "component": "C",
+      "value": 3.55165,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_032",
+      "component": "D",
+      "value": 4.53561,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_032",
+      "component": "E",
+      "value": 5.707,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_033",
+      "component": "A",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_033",
+      "component": "B",
+      "value": 18.09492,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_033",
+      "component": "C",
+      "value": 21.48616,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_033",
+      "component": "D",
+      "value": 20.20978,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_033",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_034",
+      "component": "A",
+      "value": 4.10432,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_034",
+      "component": "B",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_034",
+      "component": "C",
+      "value": 8.91472,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_034",
+      "component": "D",
+      "value": 11.79115,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_034",
+      "component": "E",
+      "value": 15.19747,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_035",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_035",
+      "component": "B",
+      "value": 2.68965,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_035",
+      "component": "C",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_035",
+      "component": "D",
+      "value": 4.66064,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_035",
+      "component": "E",
+      "value": 6.09822,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_036",
+      "component": "A",
+      "value": 5.98469,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_036",
+      "component": "B",
+      "value": 15.25912,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_036",
+      "component": "C",
+      "value": 14.31118,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_036",
+      "component": "D",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_036",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_037",
+      "component": "A",
+      "value": 4.37658,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_037",
+      "component": "B",
+      "value": 7.77257,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_037",
+      "component": "C",
+      "value": 9.67699,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_037",
+      "component": "D",
+      "value": 9.63776,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_037",
+      "component": "E",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_038",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_038",
+      "component": "B",
+      "value": 2.55984,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_038",
+      "component": "C",
+      "value": 4.00205,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_038",
+      "component": "D",
+      "value": 4.71944,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_038",
+      "component": "E",
+      "value": 5.14007,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_039",
+      "component": "A",
+      "value": 8.6638,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_039",
+      "component": "B",
+      "value": 12.16628,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_039",
+      "component": "C",
+      "value": 15.10353,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_039",
+      "component": "D",
+      "value": 20.51619,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_039",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_040",
+      "component": "A",
+      "value": 4.10024,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_040",
+      "component": "B",
+      "value": 9.62505,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_040",
+      "component": "C",
+      "value": 8.83262,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_040",
+      "component": "D",
+      "value": 10.52051,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_040",
+      "component": "E",
+      "value": 13.4496,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_041",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_041",
+      "component": "B",
+      "value": 2.76671,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_041",
+      "component": "C",
+      "value": 3.01214,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_041",
+      "component": "D",
+      "value": 4.31019,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_041",
+      "component": "E",
+      "value": 5.92577,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_042",
+      "component": "A",
+      "value": 9.20462,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_042",
+      "component": "B",
+      "value": 15.01965,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_042",
+      "component": "C",
+      "value": 17.64413,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_042",
+      "component": "D",
+      "value": 20.96527,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_042",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_043",
+      "component": "A",
+      "value": 5.92226,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_043",
+      "component": "B",
+      "value": 10.26821,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_043",
+      "component": "C",
+      "value": 8.4606,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_043",
+      "component": "D",
+      "value": 10.95214,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_043",
+      "component": "E",
+      "value": 13.09327,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_044",
+      "component": "A",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_044",
+      "component": "B",
+      "value": 2.44399,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_044",
+      "component": "C",
+      "value": 3.38653,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_044",
+      "component": "D",
+      "value": 5.34011,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_044",
+      "component": "E",
+      "value": 6.07348,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_045",
+      "component": "A",
+      "value": 4.974,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_045",
+      "component": "B",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_045",
+      "component": "C",
+      "value": 19.35021,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_045",
+      "component": "D",
+      "value": 25.45253,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_045",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_046",
+      "component": "A",
+      "value": 3.31381,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_046",
+      "component": "B",
+      "value": 9.79205,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_046",
+      "component": "C",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_046",
+      "component": "D",
+      "value": 12.1579,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_046",
+      "component": "E",
+      "value": 13.52073,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_047",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_047",
+      "component": "B",
+      "value": 3.14447,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_047",
+      "component": "C",
+      "value": 3.90288,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_047",
+      "component": "D",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_047",
+      "component": "E",
+      "value": 4.79246,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_048",
+      "component": "A",
+      "value": 8.75833,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_048",
+      "component": "B",
+      "value": 15.74409,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_048",
+      "component": "C",
+      "value": 17.40933,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_048",
+      "component": "D",
+      "value": 20.80676,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_048",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_049",
+      "component": "A",
+      "value": 4.86344,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_049",
+      "component": "B",
+      "value": 6.87867,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_049",
+      "component": "C",
+      "value": 9.58857,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_049",
+      "component": "D",
+      "value": 11.4543,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_049",
+      "component": "E",
+      "value": 11.64333,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_050",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_050",
+      "component": "B",
+      "value": 2.48444,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_050",
+      "component": "C",
+      "value": 3.94141,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_050",
+      "component": "D",
+      "value": 3.90377,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_050",
+      "component": "E",
+      "value": 6.08865,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_051",
+      "component": "A",
+      "value": 5.40754,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_051",
+      "component": "B",
+      "value": 14.32782,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_051",
+      "component": "C",
+      "value": 19.42184,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_051",
+      "component": "D",
+      "value": 20.52692,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_051",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_052",
+      "component": "A",
+      "value": 3.74042,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_052",
+      "component": "B",
+      "value": 8.64801,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_052",
+      "component": "C",
+      "value": 10.28012,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_052",
+      "component": "D",
+      "value": 12.59815,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_052",
+      "component": "E",
+      "value": 14.67816,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_053",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_053",
+      "component": "B",
+      "value": 3.04416,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_053",
+      "component": "C",
+      "value": 3.05515,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_053",
+      "component": "D",
+      "value": 5.61426,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_053",
+      "component": "E",
+      "value": 5.46404,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_054",
+      "component": "A",
+      "value": 7.85332,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_054",
+      "component": "B",
+      "value": 11.64378,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_054",
+      "component": "C",
+      "value": 15.53221,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_054",
+      "component": "D",
+      "value": 22.33126,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_054",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_055",
+      "component": "A",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_055",
+      "component": "B",
+      "value": 8.92311,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_055",
+      "component": "C",
+      "value": 9.9161,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_055",
+      "component": "D",
+      "value": 10.70334,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_055",
+      "component": "E",
+      "value": 13.68586,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_056",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_056",
+      "component": "B",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_056",
+      "component": "C",
+      "value": 3.59375,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_056",
+      "component": "D",
+      "value": 4.04154,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_056",
+      "component": "E",
+      "value": 5.82185,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_057",
+      "component": "A",
+      "value": 4.70224,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_057",
+      "component": "B",
+      "value": 13.41198,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_057",
+      "component": "C",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_057",
+      "component": "D",
+      "value": 22.83448,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_057",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_058",
+      "component": "A",
+      "value": 4.1225,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_058",
+      "component": "B",
+      "value": 7.43648,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_058",
+      "component": "C",
+      "value": 8.98024,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_058",
+      "component": "D",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_058",
+      "component": "E",
+      "value": 14.86092,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_059",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_059",
+      "component": "B",
+      "value": 2.0723,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_059",
+      "component": "C",
+      "value": 4.01847,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_059",
+      "component": "D",
+      "value": 5.44426,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_059",
+      "component": "E",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_060",
+      "component": "A",
+      "value": 9.41379,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_060",
+      "component": "B",
+      "value": 12.08103,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_060",
+      "component": "C",
+      "value": 18.89466,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_060",
+      "component": "D",
+      "value": 23.41392,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_060",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_061",
+      "component": "A",
+      "value": 5.04795,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_061",
+      "component": "B",
+      "value": 11.83423,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_061",
+      "component": "C",
+      "value": 8.63335,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_061",
+      "component": "D",
+      "value": 11.38881,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_061",
+      "component": "E",
+      "value": 14.57635,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_062",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_062",
+      "component": "B",
+      "value": 2.88648,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_062",
+      "component": "C",
+      "value": 3.57542,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_062",
+      "component": "D",
+      "value": 4.4005,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_062",
+      "component": "E",
+      "value": 5.50053,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_063",
+      "component": "A",
+      "value": 5.56463,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_063",
+      "component": "B",
+      "value": 10.87338,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_063",
+      "component": "C",
+      "value": 18.06125,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_063",
+      "component": "D",
+      "value": 23.52441,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_063",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_064",
+      "component": "A",
+      "value": 6.21884,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_064",
+      "component": "B",
+      "value": 10.97148,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_064",
+      "component": "C",
+      "value": 10.32375,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_064",
+      "component": "D",
+      "value": 10.72081,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_064",
+      "component": "E",
+      "value": 13.28267,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_065",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_065",
+      "component": "B",
+      "value": 3.6585,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_065",
+      "component": "C",
+      "value": 2.93196,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_065",
+      "component": "D",
+      "value": 4.87343,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_065",
+      "component": "E",
+      "value": 5.42232,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_066",
+      "component": "A",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_066",
+      "component": "B",
+      "value": 11.2728,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_066",
+      "component": "C",
+      "value": 18.48068,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_066",
+      "component": "D",
+      "value": 24.84102,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_066",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_067",
+      "component": "A",
+      "value": 3.68892,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_067",
+      "component": "B",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_067",
+      "component": "C",
+      "value": 11.016,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_067",
+      "component": "D",
+      "value": 11.46997,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_067",
+      "component": "E",
+      "value": 13.62008,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_068",
+      "component": "A",
+      "value": 2.00648,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_068",
+      "component": "B",
+      "value": 2.86124,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_068",
+      "component": "C",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_068",
+      "component": "D",
+      "value": 4.21962,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_068",
+      "component": "E",
+      "value": 5.1788,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_069",
+      "component": "A",
+      "value": 7.78726,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_069",
+      "component": "B",
+      "value": 14.29987,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_069",
+      "component": "C",
+      "value": 21.53677,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_069",
+      "component": "D",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_069",
+      "component": "E",
+      "value": 0,
+      "state": "not_added",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_070",
+      "component": "A",
+      "value": 3.13111,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_070",
+      "component": "B",
+      "value": 13.17761,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_070",
+      "component": "C",
+      "value": 8.41008,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_070",
+      "component": "D",
+      "value": 11.96927,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_070",
+      "component": "E",
+      "value": null,
+      "state": "not_measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_071",
+      "component": "A",
+      "value": null,
+      "state": "below_limit",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_071",
+      "component": "B",
+      "value": 2.21614,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_071",
+      "component": "C",
+      "value": 3.08468,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_071",
+      "component": "D",
+      "value": 4.12254,
+      "state": "measured",
+      "limit": 2
+    },
+    {
+      "sample_id": "mix_071",
+      "component": "E",
+      "value": 5.74071,
+      "state": "measured",
+      "limit": 2
+    }
+  ],
+  "components": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "component_groups": {
+    "major": [
+      "A",
+      "B",
+      "C"
+    ],
+    "minor": [
+      "D",
+      "E"
+    ]
+  }
+}

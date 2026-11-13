@@ -1,0 +1,20 @@
+{
+  "name": "教学配比检测分析台",
+  "focus": "成分浓度与观测覆盖",
+  "options": [
+    [
+      "group",
+      "配方范围",
+      [
+        "all",
+        "base",
+        "revised",
+        "pilot"
+      ]
+    ]
+  ],
+  "selection": {
+    "group": "all"
+  },
+  "purpose": "本地研究资料浏览与复核记录"
+}

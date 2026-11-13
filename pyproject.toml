@@ -1,0 +1,6 @@
+[project]
+name = "composition-study"
+version = "0.3.0"
+description = "教学配比检测分析台"
+requires-python = ">=3.11"
+dependencies = []
