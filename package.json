@@ -1,0 +1,9 @@
+{
+  "name": "composition-study",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m composition_study",
+    "test:browser": "python3 tests/browser_smoke.py"
+  }
+}
