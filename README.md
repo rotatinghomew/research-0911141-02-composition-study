@@ -12,6 +12,8 @@ python3 -m composition_study --host 127.0.0.1 --port 8080
 
 浏览器打开 `http://127.0.0.1:8080`。状态默认保存在 `.state/research.sqlite3`，可用 `--state` 指定独立目录。页面提供范围选择、表格和图、原始记录查看、完整数据导入、保存和导出。保存的是数据版本与当时的描述，不会因后续导入变化。
 
+页面另含配方比较：选择两端配方、参与成分和未检出处理假设后，以 clr 对数比区分整体浓度与相对构成变化，给出倍数变化、置信区间和 BH 控制的 q 值；未加入成分按结构差异单列，不代入小数。敏感性表在全部处理假设下重算同一方案，批次不重叠、独立总量缺失和可比样本不足会列入限制。比较方案（含探索中挑选的成分）与结果一起留档，新数据可用旧方案重做，旧记录保持冻结。
+
 ```bash
 docker build -t composition_study:local .
 docker run --rm -p 8080:8080 -v composition_study-state:/app/.state composition_study:local

@@ -39,6 +39,11 @@ class Store:
                     revision TEXT NOT NULL REFERENCES datasets(revision),
                     selection TEXT NOT NULL, result TEXT NOT NULL, created_at TEXT NOT NULL
                 );
+                CREATE TABLE IF NOT EXISTS comparisons (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT NOT NULL,
+                    revision TEXT NOT NULL REFERENCES datasets(revision),
+                    scheme TEXT NOT NULL, result TEXT NOT NULL, created_at TEXT NOT NULL
+                );
             """)
 
     @contextmanager
@@ -100,4 +105,31 @@ class Store:
         for field in ["selection", "result"]:
             result[field] = json.loads(result[field])
         result["dataset"] = self.dataset(result["revision"])
+        return result
+
+    def save_comparison(self, title, revision, scheme, result):
+        if not isinstance(title, str) or not title.strip() or len(title) > 160:
+            raise ValueError("比较记录名称应为1至160字")
+        with self.connection() as connection:
+            if connection.execute("SELECT 1 FROM datasets WHERE revision=?", (revision,)).fetchone() is None:
+                raise LookupError("数据版本不存在")
+            cursor = connection.execute(
+                "INSERT INTO comparisons(title,revision,scheme,result,created_at) VALUES(?,?,?,?,?)",
+                (title.strip(), revision, encode(scheme), encode(result), datetime.now(timezone.utc).isoformat()))
+            identifier = cursor.lastrowid
+        return self.comparison(identifier)
+
+    def comparisons(self):
+        with self.connection() as connection:
+            return [dict(row) for row in connection.execute(
+                "SELECT id,title,revision,created_at FROM comparisons ORDER BY id DESC")]
+
+    def comparison(self, identifier):
+        with self.connection() as connection:
+            row = connection.execute("SELECT * FROM comparisons WHERE id=?", (identifier,)).fetchone()
+        if row is None:
+            raise LookupError("比较记录不存在")
+        result = dict(row)
+        for field in ["scheme", "result"]:
+            result[field] = json.loads(result[field])
         return result

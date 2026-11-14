@@ -43,6 +43,14 @@ class Handler(BaseHTTPRequestHandler):
             if parsed.path.startswith("/api/notebooks/"):
                 identifier = parsed.path.rsplit("/", 1)[-1]
                 return self.send(200, self.workbench.store.notebook(identifier))
+            if parsed.path == "/api/compare/options":
+                revision = parse_qs(parsed.query).get("revision", [None])[0]
+                return self.send(200, self.workbench.compare_options(revision))
+            if parsed.path == "/api/comparisons":
+                return self.send(200, self.workbench.store.comparisons())
+            if parsed.path.startswith("/api/comparisons/"):
+                identifier = parsed.path.rsplit("/", 1)[-1]
+                return self.send(200, self.workbench.store.comparison(identifier))
             static = {"/": "index.html", "/app.js": "app.js", "/style.css": "style.css"}
             if parsed.path not in static:
                 return self.send(404, {"error": "路径不存在"})
@@ -61,6 +69,10 @@ class Handler(BaseHTTPRequestHandler):
                 raise ValueError("请求正文应为对象")
             if self.path == "/api/explore":
                 return self.send(200, self.workbench.inspect(body))
+            if self.path == "/api/compare":
+                return self.send(200, self.workbench.compare(body))
+            if self.path == "/api/comparisons":
+                return self.send(201, self.workbench.save_comparison(body))
             if self.path == "/api/datasets":
                 return self.send(201, self.workbench.upload(body))
             if self.path == "/api/notebooks":

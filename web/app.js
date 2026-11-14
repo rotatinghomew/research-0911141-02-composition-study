@@ -137,6 +137,17 @@ async function refresh() {
     });
     element('archive').append(button);
   }
+  element('compare-archive').replaceChildren();
+  for (const item of state.context.comparisons || []) {
+    const button = document.createElement('button'); button.textContent = item.title + ' #' + item.id;
+    button.onclick = () => guardedCompare(async () => {
+      const saved = await request('/api/comparisons/' + item.id);
+      state.savedScheme = saved.scheme;
+      element('rerun-compare').hidden = false;
+      renderCompare(saved.result, '已读取保存的比较 #' + saved.id + '（冻结结果，不随新数据变化）');
+    });
+    element('compare-archive').append(button);
+  }
 }
 
 element('inspect').onclick = () => guarded(async () => render(await request('/api/explore', selected())));
@@ -163,4 +174,133 @@ element('export').onclick = () => guarded(async () => {
   link.href = url; link.download = 'analysis-' + state.current.revision.slice(0, 12) + '.json'; link.click();
   URL.revokeObjectURL(url);
 });
-guarded(async () => { await refresh(); render(await request('/api/explore', selected())); });
+guarded(async () => {
+  await refresh();
+  render(await request('/api/explore', selected()));
+  await guardedCompare(setupCompare);
+});
+
+// ---------------------------------------------------------------- 配方比较
+
+function paragraph(text) {
+  const p = document.createElement('p'); p.textContent = text; return p;
+}
+
+function compareMessage(value, error = false) {
+  element('compare-status').textContent = value;
+  element('compare-status').className = error ? 'error' : '';
+}
+
+async function guardedCompare(action) {
+  try { await action(); } catch (error) { compareMessage(error.message, true); }
+}
+
+function fillTable(columnsId, rowsId, rows) {
+  const fields = [...new Set(rows.flatMap(row => Object.keys(row)))];
+  const header = document.createElement('tr');
+  for (const field of fields) { const cell = document.createElement('th'); cell.textContent = field; header.append(cell); }
+  element(columnsId).replaceChildren(header);
+  element(rowsId).replaceChildren();
+  for (const row of rows) {
+    const line = document.createElement('tr');
+    for (const field of fields) { const cell = document.createElement('td'); cell.textContent = displayValue(row[field]); line.append(cell); }
+    element(rowsId).append(line);
+  }
+}
+
+async function setupCompare() {
+  const revision = element('revision').value || (state.context && state.context.default_revision);
+  if (!revision) return;
+  const options = await request('/api/compare/options?revision=' + encodeURIComponent(revision));
+  state.compareOptions = options;
+  for (const id of ['group-a', 'group-b']) {
+    const select = element(id); const previous = select.value;
+    select.replaceChildren();
+    for (const group of options.groups) {
+      const option = document.createElement('option'); option.value = group; option.textContent = group; select.append(option);
+    }
+    if (options.groups.includes(previous)) select.value = previous;
+  }
+  if (element('group-a').value === element('group-b').value && options.groups.length > 1) {
+    element('group-b').value = options.groups.find(group => group !== element('group-a').value);
+  }
+  const below = element('below-limit');
+  if (!below.children.length) {
+    for (const [key, label] of Object.entries(options.scenarios)) {
+      const option = document.createElement('option'); option.value = key; option.textContent = key + ' · ' + label; below.append(option);
+    }
+    below.value = options.default_scenario;
+  }
+  const picker = element('component-picker'); picker.replaceChildren();
+  for (const component of options.components) {
+    const label = document.createElement('label');
+    const box = document.createElement('input'); box.type = 'checkbox'; box.value = component; box.checked = true;
+    label.append(box, component); picker.append(label);
+  }
+  const sets = element('component-sets'); sets.replaceChildren();
+  for (const [name, members] of Object.entries(options.component_groups)) {
+    const button = document.createElement('button'); button.type = 'button'; button.textContent = '仅选成分组 ' + name;
+    button.onclick = () => {
+      for (const box of document.querySelectorAll('#component-picker input')) box.checked = members.includes(box.value);
+    };
+    sets.append(button);
+  }
+}
+
+function currentScheme() {
+  const components = [...document.querySelectorAll('#component-picker input')]
+    .filter(box => box.checked).map(box => box.value);
+  return {group_a: element('group-a').value, group_b: element('group-b').value,
+          components, below_limit: element('below-limit').value};
+}
+
+function renderCompare(result, heading) {
+  state.compare = result;
+  const view = result.view;
+  element('compare-groups').replaceChildren();
+  for (const [group, info] of Object.entries(view.groups)) {
+    element('compare-groups').append(paragraph(
+      `${group}：样本 ${info.samples}，批次 ${info.batches.join('、')}，独立总量 ${info.with_total}/${info.samples}，` +
+      `未检出单元格 ${info.below_limit_cells}，未检测单元格 ${info.not_measured_cells}`));
+  }
+  fillTable('level-columns', 'level-rows', view.level);
+  fillTable('contrast-columns', 'contrast-rows', view.contrasts);
+  fillTable('balance-columns', 'balance-rows', view.balances);
+  element('structural-list').replaceChildren();
+  if (!view.structural.length) element('structural-list').append(paragraph('所选成分在两端配方中均有使用记录，无结构差异。'));
+  for (const item of view.structural) element('structural-list').append(paragraph(`成分 ${item.component}：${item.note}`));
+  fillTable('sensitivity-columns', 'sensitivity-rows', view.sensitivity);
+  element('limitations').replaceChildren();
+  if (!view.limitations.length) element('limitations').append(paragraph('未发现批次、独立总量或可比样本方面的额外限制。'));
+  for (const text of view.limitations) element('limitations').append(paragraph(text));
+  element('compare-notes').replaceChildren();
+  for (const text of view.notes) element('compare-notes').append(paragraph(text));
+  element('compare-details').textContent = JSON.stringify(
+    {revision: result.revision, data_sha256: result.data_sha256, scheme: result.scheme}, null, 2);
+  compareMessage(heading + ' · 数据 ' + result.revision.slice(0, 12));
+}
+
+element('run-compare').onclick = () => guardedCompare(async () => {
+  const revision = element('revision').value || state.context.default_revision;
+  const result = await request('/api/compare', {revision, scheme: currentScheme()});
+  state.savedScheme = null; element('rerun-compare').hidden = true;
+  renderCompare(result, '已完成比较（未保存）');
+});
+
+element('save-compare').onclick = () => guardedCompare(async () => {
+  const revision = element('revision').value || state.context.default_revision;
+  const saved = await request('/api/comparisons', {
+    title: element('compare-title').value, revision, scheme: currentScheme()});
+  state.savedScheme = saved.scheme; element('rerun-compare').hidden = false;
+  await refresh();
+  renderCompare(saved.result, '已保存比较 #' + saved.id);
+});
+
+element('rerun-compare').onclick = () => guardedCompare(async () => {
+  if (!state.savedScheme) return;
+  const revision = element('revision').value || state.context.default_revision;
+  const result = await request('/api/compare', {revision, scheme: state.savedScheme});
+  renderCompare(result, '已用当前数据版本重做保存方案（原保存记录不变）');
+});
+
+element('revision').addEventListener('change', () => guardedCompare(setupCompare));

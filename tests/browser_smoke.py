@@ -69,5 +69,49 @@ class BrowserWorkflow(unittest.TestCase):
                 thread.join(timeout=5)
 
 
+    def test_comparison_scheme_archive_and_rerun(self):
+        project = json.loads((ROOT / 'package.json').read_text())
+        module_name = project['scripts']['start'].split()[2]
+        server_module = importlib.import_module(module_name + '.server')
+        with tempfile.TemporaryDirectory() as state:
+            server = server_module.make_server(ROOT, state, port=0)
+            thread = threading.Thread(target=server.serve_forever, daemon=True)
+            thread.start()
+            try:
+                with sync_playwright() as playwright:
+                    browser = playwright.chromium.launch(headless=True)
+                    try:
+                        page = browser.new_page(viewport={'width': 1280, 'height': 720})
+                        errors = []
+                        page.on('pageerror', lambda error: errors.append(str(error)))
+                        page.goto(f'http://127.0.0.1:{server.server_port}', wait_until='networkidle')
+                        page.locator('#status').filter(has_text='已更新描述').wait_for()
+                        page.locator('#group-a option').first.wait_for(state='attached')
+                        page.locator('#group-a').select_option('base')
+                        page.locator('#group-b').select_option('revised')
+                        page.locator('#run-compare').click()
+                        page.locator('#compare-status').filter(has_text='已完成比较').wait_for()
+                        self.assertGreater(page.locator('#contrast-rows tr').count(), 0)
+                        self.assertGreater(page.locator('#sensitivity-rows tr').count(), 0)
+                        self.assertIn('E', page.locator('#structural-list').inner_text())
+                        page.locator('#compare-title').fill('浏览器比较')
+                        page.locator('#save-compare').click()
+                        page.locator('#compare-status').filter(has_text='已保存比较').wait_for()
+                        saved = json.loads(page.locator('#compare-details').inner_text())
+                        page.locator('#compare-archive button').first.click()
+                        page.locator('#compare-status').filter(has_text='已读取保存的比较').wait_for()
+                        reopened = json.loads(page.locator('#compare-details').inner_text())
+                        self.assertEqual(saved, reopened)
+                        page.locator('#rerun-compare').click()
+                        page.locator('#compare-status').filter(has_text='重做').wait_for()
+                        self.assertEqual(errors, [])
+                    finally:
+                        browser.close()
+            finally:
+                server.shutdown()
+                server.server_close()
+                thread.join(timeout=5)
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

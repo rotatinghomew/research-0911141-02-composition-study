@@ -10,4 +10,28 @@
 <h2>成分浓度与观测覆盖</h2><div id="notes"></div><canvas id="chart" width="960" height="300" aria-label="所选范围描述图"></canvas>
 <div class="table-wrap"><table><thead id="columns"></thead><tbody id="rows"></tbody></table></div>
 <h2 id="detail-heading">记录与依据</h2><pre id="details">点击记录行可查看详细字段。</pre><button id="export">导出当前记录</button>
-</section></main><footer>仅使用本地虚构记录；描述统计不替代研究设计与业务复核。</footer><script src="/app.js"></script></body></html>
+</section>
+<section id="compare"><h2>配方比较 · 对数比成分分析</h2>
+<p class="hint">区分整体浓度与相对构成变化；未加入成分按结构差异单列，未检出按所选假设处理，并可在敏感性表中用其他合理假设复核。效应为倍数变化，q 值对本方案全部对比做 BH 控制。</p>
+<div class="compare-controls">
+<label>基准配方<select id="group-a"></select></label>
+<label>对比配方<select id="group-b"></select></label>
+<label>未检出处理（主要假设）<select id="below-limit"></select></label>
+<fieldset><legend>参与比较的成分（子成分集，随方案留档）</legend><div id="component-picker"></div><div id="component-sets"></div></fieldset>
+<button id="run-compare">运行比较</button>
+<label>比较记录名称<input id="compare-title" value="配方比较"></label>
+<button id="save-compare">保存比较方案与结果</button>
+<button id="rerun-compare" hidden>用当前数据版本重做该方案</button>
+</div>
+<div id="compare-status" role="status"></div>
+<div id="compare-groups"></div>
+<h3>整体浓度对比</h3><div class="table-wrap"><table><thead id="level-columns"></thead><tbody id="level-rows"></tbody></table></div>
+<h3>相对构成对比（对数比坐标）</h3><div class="table-wrap"><table><thead id="contrast-columns"></thead><tbody id="contrast-rows"></tbody></table></div>
+<h3>成分组平衡</h3><div class="table-wrap"><table><thead id="balance-columns"></thead><tbody id="balance-rows"></tbody></table></div>
+<h3>结构差异（未加入成分）</h3><div id="structural-list"></div>
+<h3>处理假设敏感性</h3><div class="table-wrap"><table><thead id="sensitivity-columns"></thead><tbody id="sensitivity-rows"></tbody></table></div>
+<h3>可比性限制</h3><div id="limitations"></div>
+<h3>方法说明</h3><div id="compare-notes"></div>
+<h3>已保存的比较</h3><div id="compare-archive"></div>
+<pre id="compare-details"></pre>
+</section></main><footer>仅使用本地虚构记录；描述统计与对数比比较不替代研究设计与业务复核。</footer><script src="/app.js"></script></body></html>

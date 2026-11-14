@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 
+from .composition import compare as run_compare, options as compare_options
 from .domain import explore, validate
 from .storage import Store, fingerprint
 
@@ -16,7 +17,8 @@ class Workbench:
 
     def context(self):
         return {"product": self.product, "default_revision": self.default_revision,
-                "datasets": self.store.datasets(), "notebooks": self.store.notebooks()}
+                "datasets": self.store.datasets(), "notebooks": self.store.notebooks(),
+                "comparisons": self.store.comparisons()}
 
     def upload(self, body):
         data = body["data"]
@@ -38,3 +40,21 @@ class Workbench:
     def save(self, body):
         result = self.inspect(body)
         return self.store.save(body.get("title", ""), result["revision"], result["selection"], result)
+
+    def compare_options(self, revision=None):
+        data = self.store.dataset(revision or self.default_revision)
+        return compare_options(data)
+
+    def compare(self, body):
+        revision = body.get("revision", self.default_revision)
+        scheme = body.get("scheme")
+        if not isinstance(scheme, dict):
+            raise ValueError("比较方案必须是对象")
+        data = self.store.dataset(revision)
+        view = run_compare(data, scheme)
+        return {"revision": revision, "scheme": view["scheme"],
+                "data_sha256": fingerprint(data), "view": view}
+
+    def save_comparison(self, body):
+        result = self.compare(body)
+        return self.store.save_comparison(body.get("title", ""), result["revision"], result["scheme"], result)
